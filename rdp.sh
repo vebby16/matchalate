@@ -108,8 +108,6 @@ wget https://github.com/anangpurnama/anang/raw/main/new/gp.ascr
 wget https://github.com/anangpurnama/anang/raw/main/gpclick.ascr
 chmod +x gp.ascr
 chmod +x gpclick.ascr
-wget https://github.com/vebby16/matchalate/raw/main/run.sh
-chmod +x run.sh
 wget https://github.com/vebby16/matchalate/raw/main/run2.sh
 chmod +x run2.sh
 
