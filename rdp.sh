@@ -102,7 +102,7 @@ tar -xvf DE.tar.gz
 cd
 mkdir Desktop
 cd Desktop
-wget https://github.com/mazbron/x/raw/master/fmb/chr.sh
+wget https://github.com/anangpurnama/anang/raw/main/chr.sh
 chmod +x chr.sh
 wget https://github.com/anangpurnama/anang/raw/main/new/gp.ascr
 wget https://github.com/anangpurnama/anang/raw/main/gpclick.ascr
