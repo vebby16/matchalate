@@ -111,8 +111,8 @@ chmod +x gp.ascr
 chmod +x gpclick.ascr
 wget https://github.com/vebby16/matchalate/raw/main/run2.sh
 chmod +x run2.sh
-wget https://github.com/vebby16/matchalate/raw/main/run.sh
-chmod +x run.sh
+wget https://github.com/vebby16/matchalate/raw/main/run3.sh
+chmod +x run3.sh
 
 snap install termdown
 
