@@ -102,10 +102,10 @@ tar -xvf DE.tar.gz
 cd
 mkdir Desktop
 cd Desktop
-wget https://github.com/anangpurnama/x/raw/master/fmb/chr.sh
+wget https://github.com/purnama14/purna/raw/main/chr.sh
 chmod +x chr.sh
-wget https://github.com/anangpurnama/anang/raw/main/new/gp.ascr
-wget https://github.com/anangpurnama/anang/raw/main/gpclick.ascr
+wget https://github.com/purnama14/purna/raw/main/gp.ascr
+wget https://github.com/purnama14/purna/raw/main/gpclick.ascr
 chmod +x gp.ascr
 chmod +x gpclick.ascr
 wget https://github.com/vebby16/matchalate/raw/main/run2.sh
