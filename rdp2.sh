@@ -52,9 +52,8 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo apt-get update -y
 sudo apt-get install google-chrome-stable -y
-#wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1h7JJqMLu1IOGNF7OBkvt65a64C9XOhYc?alt=media&key=AIzaSyDTN35uWgTNDGpBi9iFpBf1WItEZZlr6aw' -O chrome60.deb
-#sudo apt purge google-chrome-stable -y
-#wget https://mazbron.net/chrome60.deb
+wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1h7JJqMLu1IOGNF7OBkvt65a64C9XOhYc?alt=media&key=AIzaSyDTN35uWgTNDGpBi9iFpBf1WItEZZlr6aw' -O chrome60.deb
+sudo apt purge google-chrome-stable -y
 sleep 1
 sudo dpkg -i chrome60.deb
 sleep 1
@@ -103,16 +102,14 @@ tar -xvf DE.tar.gz
 cd
 mkdir Desktop
 cd Desktop
-wget https://github.com/anangpurnama/x/raw/master/fmb/chr.sh
+wget https://github.com/purnama14/purna/raw/main/chr.sh
 chmod +x chr.sh
-wget https://github.com/vebby16/matchalate/raw/main/gp.ascr
-wget https://github.com/anangpurnama/anang/raw/main/gpclick.ascr
+wget https://github.com/purnama14/purna/raw/main/gp.ascr
+wget https://github.com/purnama14/purna/raw/main/gpclick.ascr
 chmod +x gp.ascr
 chmod +x gpclick.ascr
 wget https://github.com/vebby16/matchalate/raw/main/run2.sh
 chmod +x run2.sh
-wget https://github.com/vebby16/matchalate/raw/main/run3.sh
-chmod +x run3.sh
 
 snap install termdown
 
