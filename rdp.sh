@@ -37,7 +37,7 @@ sleep 1
 apt-get install firefox -y
 sleep 1
 #rm -rf .moazilla
-#wget https://github.com/mazbron/x/raw/master/fmb/mzlgame.tar.gz
+#wget https://github.com/purnama14/purna/raw/main/fmb/mzlgame.tar.gz
 #tar -xvf mzlgame.tar.gz
 rm -rf .mozilla
 wget mazbron.net/ff19ipflood.tar.gz
@@ -52,8 +52,9 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo apt-get update -y
 sudo apt-get install google-chrome-stable -y
-wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1h7JJqMLu1IOGNF7OBkvt65a64C9XOhYc?alt=media&key=AIzaSyDTN35uWgTNDGpBi9iFpBf1WItEZZlr6aw' -O chrome60.deb
-sudo apt purge google-chrome-stable -y
+#wget --no-check-certificate 'https://www.googleapis.com/drive/v3/files/1h7JJqMLu1IOGNF7OBkvt65a64C9XOhYc?alt=media&key=AIzaSyDTN35uWgTNDGpBi9iFpBf1WItEZZlr6aw' -O chrome60.deb
+#sudo apt purge google-chrome-stable -y
+#wget https://mazbron.net/chrome60.deb
 sleep 1
 sudo dpkg -i chrome60.deb
 sleep 1
@@ -63,7 +64,7 @@ sudo apt-get install flashplugin-installer -y
 sleep 1
 apt-get install chromium-browser -y
 sleep 1
-wget https://github.com/mazbron/x/raw/master/install_flash_player_11_linux.x86_64.tar.gz
+wget https://github.com/purnama14/purna/raw/main/install_flash_player_11_linux.x86_64.tar.gz
 tar -xvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 sleep 2
@@ -72,7 +73,7 @@ cd /home
 ##rm -rf Default
 ##unzip profile-chrome.zip
 #sleep 2
-#wget https://github.com/mazbron/x/raw/master/chrome.tar.gz
+#wget https://github.com/purnama14/purna/raw/main/chrome.tar.gz
 #tar -xvf chrome.tar.gz
 #sleep 1
 #wget http://173.212.241.46/x/ch60-3dir.tar.gz
@@ -81,7 +82,7 @@ cd /home
 #mv chrome chrome60
 #cd chrome60
 ##wget https://github.com/mazbron/x/raw/master/fmb/game%2Balexa.tar.gz
-#wget https://github.com/mazbron/x/raw/master/default.tar.gz
+#wget https://github.com/purnama14/purna/raw/main/fmb/default.tar.gz
 #sleep 3
 #rm -rf Default
 #sleep 3
@@ -108,11 +109,8 @@ wget https://github.com/purnama14/purna/raw/main/gp.ascr
 wget https://github.com/purnama14/purna/raw/main/gpclick.ascr
 chmod +x gp.ascr
 chmod +x gpclick.ascr
-wget https://github.com/vebby16/matchalate/raw/main/run2.sh
-chmod +x run2.sh
-
-snap install termdown
-
+wget https://github.com/purnama14/purna/raw/main/run.sh
+chmod +x run.sh
 
 echo ======
 sudo service xrdp restart
@@ -121,14 +119,14 @@ apt install php libapache2-mod-php php-mysql -y
 cd /etc/apache2
 rm apache2.conf
 rm apache2.conf
-wget https://github.com/mazbron/x/raw/master/apache2.conf
+wget https://github.com/purnama14/purna/raw/main/apache2.conf
 service apache2 restart
 cd /var/www/html
 rm index.html
-#wget https://github.com/mazbron/x/raw/master/money/google.zip
+#wget https://github.com/purnama14/purna/raw/main/money/google.zip
 #unzip google.zip
 wget https://github.com/mazbron/x/raw/master/HTML/index.html
-wget https://github.com/mazbron/x/raw/master/HTML/style.css
+wget https://github.com/purnama14/purna/raw/main/html/style.css
 apt-get install proxychains -y
 #sleep 1
 apt-get install sl -y
@@ -138,7 +136,7 @@ snap install termdown -y
 cd /etc
 mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
-wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
+wget https://github.com/purnama14/purna/raw/main/fmb/proxychains.conf
 wget https://github.com/vebby16/matchalate/raw/main/hosts
 echo "root:floridina16" | sudo chpasswd
 sudo service xrdp restart
